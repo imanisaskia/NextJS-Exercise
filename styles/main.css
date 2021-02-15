@@ -11,6 +11,25 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.main {
+  height: 100vh;
+  display: flex;
+}
+
+.centered {
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  margin: 1em !important;
+}
+
+#form {
+  margin-bottom: 2em;
+}
+
+#select {
+  min-width: 120px;
+  text-align: left;
 }
