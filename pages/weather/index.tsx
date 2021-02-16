@@ -45,7 +45,7 @@ export default function Home() {
 
   const handleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
     setCityID(event.target.value);
-    //fetchData(cities[event.target.value])
+    fetchData(cities[event.target.value])
   };
 
   function genMenuItems() {
